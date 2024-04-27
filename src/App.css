@@ -45,8 +45,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 12rem;
-  margin-right: 12rem;
+  margin-left: 16rem;
+  margin-right: 16rem;
 }
 
 .card-style {
@@ -88,7 +88,7 @@
 }
 
 .total-pago {
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: bold;
 }
 

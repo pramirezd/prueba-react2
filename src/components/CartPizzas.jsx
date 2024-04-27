@@ -26,7 +26,7 @@ const CartPizzas = () => {
                                     className='btn btn-danger'
                                 >-</button>
                             </td>
-                            <td>{pizza.count}</td>
+                            <td className='fw-bold'>{pizza.count}</td>
                             <td>
                                 <button 
                                     onClick={() => increaseCount(index)}
@@ -44,7 +44,9 @@ const CartPizzas = () => {
                     </tr>
                     </tfoot>
             </table>
-            <button className="btn float-start bg-success btn-pagar ms-2">Ir a pagar</button>
+            <button 
+                onClick={() => alert('Vas a pagar un total de ' + localCurrency(totalCart) + '. ¡Disfruta tus pizzas y gracias por tu compra!')}
+                className="btn float-start bg-success btn-pagar ms-2">Ir a pagar</button>
         </div>
     )
 }
