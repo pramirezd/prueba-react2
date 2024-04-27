@@ -1,0 +1,102 @@
+.navbar-color {
+  background-color: #17a2b8;
+}
+
+.pizzeria {
+  color: white;
+}
+
+.pizzeria:hover {
+  color: white;
+}
+
+.header-img {
+  background-image: url('./assets/img/header-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 15rem;
+  display: flex;
+  place-items: center;
+}
+
+.header-content {
+  width: 100vw;
+  padding: 4.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.nombre-pizza {
+  text-transform: capitalize;
+  font-size: x-large;
+}
+
+.pizza-list {
+  list-style: none;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-style {
+  width: 18rem;
+}
+
+.moneda {
+  font-size: 21pt;
+  text-align: center;
+}
+
+.moneda-dos {
+  font-size: 21pt;
+  text-align: center;
+  padding-top: .8rem;
+  font-weight: bold;
+}
+
+.see-more {
+  text-decoration: none;
+  background-color: #0dcaf0;
+  color: white;
+}
+
+.see-more:hover {
+  background-color: #01a949 !important;
+  color: white;
+}
+
+.add-cart {
+  text-decoration: none;
+  background-color: #dc3545;
+  color: white;
+}
+
+.add-cart:hover {
+  background-color: #01a949 !important;
+  color: white;
+}
+
+.total-pago {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.cart-total {
+  font-size: 18pt;
+  font-weight: bold;
+  color: white;
+}
+
+.cart-total:hover {
+  color: white;
+}
+
+.btn-pagar {
+  color: white;
+}
