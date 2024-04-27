@@ -11,8 +11,8 @@ const Home = () => {
         <div>
             <div className='header-img'>
                 <div className='header-content'>
-                    <h1>Pizzería Mamma Mia!</h1>
-                    <p>Tenemos las mejores pizzas que podrás encontrar</p>
+                    <h1>¡Pizzería Mamma Mia!</h1>
+                    <p>¡Tenemos las mejores pizzas que podrás encontrar!</p>
                 </div>
             </div>
             <div className='card-container'>
