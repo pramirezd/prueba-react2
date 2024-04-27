@@ -9,13 +9,11 @@ import NotFound from './views/NotFound'
 
 function App() {
 
-
   return (
     <PizzaProvider>
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/carrito' element={<Cart />} />
           <Route path='/pizza/:id' element={<PizzaInfo />} />   

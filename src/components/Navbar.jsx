@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-color fixed-top" data-bs-theme="dark">
             <div className="container-fluid grid justify-content-around">
                 <Link 
-                    to="/"
+                    to="/home"
                     className="navbar-brand pizzeria"
                 >
                     <img 

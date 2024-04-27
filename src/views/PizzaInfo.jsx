@@ -47,7 +47,7 @@ const PizzaInfo = () => {
                             </div>
                             <button
                                 onClick={() => {
-                                    navigate('/');
+                                    navigate('/home');
                                 }}
                                 className='btn see-more m-2'
                                 >
