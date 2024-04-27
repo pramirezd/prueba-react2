@@ -7,10 +7,10 @@ const Cart = () => {
     const { cart } = useContext(PizzaContext);
 
     return (
-        <div className='p-5 mt-5'>
-            <h1 className='fs-4'>Detalle</h1>
+        <div className='cart-resume'>
+            <h1 className='fs-4'>Detalles del pedido</h1>
             {cart.length === 0 ? (
-                <p>No hay pizzas en el carrito</p>
+                <p>No hay artículos en el carrito</p>
                 ) : (
                     <CartPizzas />
                 )}            

@@ -16,7 +16,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='card-container'>
-                <div className='row row-cols-2 row-cols-md-4'>
+                <div className='row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-4'>
                     {pizzas.map((pizza) => (
                         <div key={pizza.id} className='col d-flex justify-content-center'>
                             <div className='card card-style mt-3 mb-3'>
@@ -24,8 +24,8 @@ const Home = () => {
                                 <div className='card-body'>
                                     <h5 className='card-title nombre-pizza'>{pizza.name}</h5>
                                     <hr />
-                                    <div className='card-body'>
-                                        Ingredientes:
+                                    <div className='card-body m-0 p-0'>
+                                    <p className='fw-bold'>Ingredientes:</p>
                                         <ul>
                                             {pizza.ingredients.map((ingredient, index) => (
                                                 <li key={index} className='pizza-list'>🍕 {ingredient}</li>

@@ -49,7 +49,7 @@ export default function PizzaProvider({ children }) {
     const totalCart = cart.reduce((acc, item) => acc + item.count * item.price, 0);
 
     const localCurrency = (value) => {
-        return new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'CLP' }).format(value);
+        return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP' }).format(value);
     };
 
     return (

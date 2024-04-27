@@ -4,6 +4,8 @@
 
 .pizzeria {
   color: white;
+  font-size: 18pt;
+  font-weight: 400;
 }
 
 .pizzeria:hover {
@@ -36,12 +38,15 @@
 
 .pizza-list {
   list-style: none;
+  text-transform: capitalize;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 .card-style {
@@ -99,4 +104,17 @@
 
 .btn-pagar {
   color: white;
+}
+
+.btn-pagar:hover {
+  color: white;
+  background-color: #01a949 !important;
+}
+
+.cart-resume {
+  padding: 2rem;
+  margin-top: 6rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  background-color: #f8f9fa;
 }

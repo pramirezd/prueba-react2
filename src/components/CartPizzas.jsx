@@ -39,12 +39,12 @@ const CartPizzas = () => {
                     <tfoot>
                     <tr>
                         <td colSpan="5" className="total-pago">
-                        Total = {localCurrency(totalCart)}
+                        Total: {localCurrency(totalCart)}
                         </td>
                     </tr>
                     </tfoot>
             </table>
-            <button className="float-start bg-success btn-pagar">Ir a pagar</button>
+            <button className="btn float-start bg-success btn-pagar ms-2">Ir a pagar</button>
         </div>
     )
 }
